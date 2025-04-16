@@ -1,6 +1,6 @@
-package com.luv2code.springboot.demo.mycoolapp.Impls;
+package com.luv2code.springboot.mycoolapp.Impls;
 
-import com.luv2code.springboot.demo.mycoolapp.Interfaces.Coach;
+import com.luv2code.springboot.mycoolapp.Interfaces.Coach;
 import org.springframework.stereotype.Component;
 //@Component => Marks the class as a spring bean
 @Component
