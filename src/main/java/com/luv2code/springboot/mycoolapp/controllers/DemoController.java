@@ -13,10 +13,9 @@ public class DemoController {
 
     private final Coach myCoach;
 
-    public DemoController(@Qualifier("basketballCoach") Coach myCoach ){
+    public DemoController(@Qualifier("swimCoach") Coach myCoach ){
         this.myCoach = myCoach;
 
-//        System.out.println("In Constructor : DemoController");
     }
 
     @GetMapping("/workout")

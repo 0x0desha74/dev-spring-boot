@@ -20,13 +20,4 @@ public class BasketballCoach implements Coach {
         return "run for 10 km - basketball";
     }
 
-    @PostConstruct
-    public void doSomeStartUpStuff(){
-        System.out.println("In doMyStartUpStuff: " + getClass().getSimpleName());
-    }
-
-    @PreDestroy
-    public void doSomeDestructionStuff(){
-        System.out.println("In doSomeDestructionStuff: " + getClass().getSimpleName());
-    }
 }
