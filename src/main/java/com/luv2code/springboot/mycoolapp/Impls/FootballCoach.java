@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 //@Component => Marks the class as a spring bean
 @Component
-@Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
 public class FootballCoach implements Coach
 {
     public FootballCoach() {
